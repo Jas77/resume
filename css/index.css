@@ -60,7 +60,7 @@ html, body, .swiper-container, .swiper-slide {
 }
 .page1>img{
     position: absolute;
-    opacity: 1;
+    opacity: 0;
 }
 .page1>img:nth-child(1){
     width: 6.21rem;

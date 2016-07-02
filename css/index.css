@@ -504,6 +504,7 @@ html, body, .swiper-container, .swiper-slide {
 /*--以下是CSS3动画--*/
 @-webkit-keyframes bounceInDown {
     from, 60%, 75%, 90%, to {
+        opacity: 1;
         -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
         animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
     }
@@ -526,16 +527,19 @@ html, body, .swiper-container, .swiper-slide {
     }
 
     75% {
+        opacity: 1;
         -webkit-transform: translate3d(0, -10px, 0);
         transform: translate3d(0, -10px, 0);
     }
 
     90% {
+        opacity: 1;
         -webkit-transform: translate3d(0, 5px, 0);
         transform: translate3d(0, 5px, 0);
     }
 
     to {
+        opacity: 1;
         -webkit-transform: none;
         transform: none;
     }

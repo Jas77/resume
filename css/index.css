@@ -60,7 +60,7 @@ html, body, .swiper-container, .swiper-slide {
 }
 .page1>img{
     position: absolute;
-    opacity: 0;
+    opacity: 1;
 }
 .page1>img:nth-child(1){
     width: 6.21rem;
@@ -513,6 +513,11 @@ html, body, .swiper-container, .swiper-slide {
         -webkit-transform: translate3d(0, -3000px, 0);
         transform: translate3d(0, -3000px, 0);
     }
+    1% {
+        opacity: 1;
+        -webkit-transform: translate3d(0, -3000px, 0);
+        transform: translate3d(0, -3000px, 0);
+    }
 
     60% {
         opacity: 1;
@@ -543,6 +548,11 @@ html, body, .swiper-container, .swiper-slide {
 
     0% {
         opacity: 0;
+        -webkit-transform: translate3d(0, -3000px, 0);
+        transform: translate3d(0, -3000px, 0);
+    }
+     1% {
+        opacity: 1;
         -webkit-transform: translate3d(0, -3000px, 0);
         transform: translate3d(0, -3000px, 0);
     }
